@@ -5,14 +5,14 @@ Couleurs helps in styling,coloring text (string), and terminals. Couleurs is a d
 ### Installation
 
 ```bash
-$ yarn add @mongodb-model/couleurs
+$ yarn add @ongojs/couleurs
 
 ```
  or 
 
 ```bash
 
-$ npm i @mongodb-model/couleurs
+$ npm i @ongojs/couleurs
 
 ```
 
@@ -21,7 +21,7 @@ $ npm i @mongodb-model/couleurs
 
 #### Making api request (http request)
 ```javascript
-const Couleurs = require('@mongodb-model/couleurs');
+const Couleurs = require('@ongojs/couleurs');
 const couleur = new Couleurs();
 couleur.apiGet(); //base.apiGet(your api endpoint)
 couleur.on('apiGet', data => console.log(data));
@@ -30,7 +30,7 @@ couleur.on('apiGet-error', error => console.error(error));
 #### By extension
 
 ```javascript
-class MyWonderfulClass extends require('@mongodb-model/couleurs') {
+class MyWonderfulClass extends require('@ongojs/couleurs') {
 
     constructor(...arrayOfObjects) {
 
@@ -53,7 +53,7 @@ class MyWonderfulClass extends require('@mongodb-model/couleurs') {
 #### Couleurs methods usage example
 ```javascript
 
-const Couleurs = require('@mongodb-model/couleurs');
+const Couleurs = require('@ongojs/couleurs');
 
 // You may use object destruction to get methods needed from the instance.
 const {Color_Off,Green,BBlue,Blinker,Bold,SetColor,Underline} = new Couleurs
@@ -204,5 +204,5 @@ console.log(Color_Off('I am reset to my default style and I like it!'))
 #### Author's Info
 Website|NPM|Github|Gitlab|Blog|LinkedIn|Facebook|Twitter|Instagram|
 --- | --- | --- | --- | --- | --- | --- |--- |--- |
-[Website](https://www.ericsonsweah.com/dashboard)|[NPM](https://www.npmjs.com/org/mongodb-model)|[Github](https://github.com/ericsonweah)|[Gitlab](https://gitlab.com/ericsonweah)|[Blog](https://www.ericonsweah.dev)|[LinkedIn](https://www.linkedin.com/in/ericson-weah-b03600210)|[Facebook](https://www.facebook.com/Eric.S.Weah)|[Twitter](https://twitter.com/EricsonWeah1)|[Instagram](https://www.instagram.com/ericsonweah/)|
+[Website](https://www.ericsonsweah.com/dashboard)|[NPM](https://www.npmjs.com/org/ongojs)|[Github](https://github.com/ericsonweah)|[Gitlab](https://gitlab.com/ericsonweah)|[Blog](https://www.ericonsweah.dev)|[LinkedIn](https://www.linkedin.com/in/ericson-weah-b03600210)|[Facebook](https://www.facebook.com/Eric.S.Weah)|[Twitter](https://twitter.com/EricsonWeah1)|[Instagram](https://www.instagram.com/ericsonweah/)|
 
