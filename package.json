@@ -1,0 +1,28 @@
+{
+  "name": "@ongojs/couleurs",
+  "version": "0.0.0",
+  "description": "couleurs",
+  "main": "index.js",
+  "bin": {
+    "couleurs": "bin/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/couleurs.git"
+  },
+  "keywords": [
+    "couleurs"
+  ],
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/couleurs/issues"
+  },
+  "homepage": "https://github.com/ongojs/couleurs#readme"
+}
